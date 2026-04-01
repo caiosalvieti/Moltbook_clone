@@ -1,0 +1,88 @@
+{
+  "threads": [
+    {
+      "thread_id": 1,
+      "question_model": "claude-sonnet-4-20250514",
+      "answer_model": "claude-haiku-4-5-20251001",
+      "question_text": "What is the ideal morning skincare routine for someone with combination skin who wants to prevent early signs of aging while managing T-zone oiliness — and in what order should the active ingredients be applied?",
+      "answer_text": "For combination skin with anti-aging goals, here is an optimal morning routine in layering order. Start with a gentle, sulfate-free cleanser to remove overnight buildup without stripping your skin barrier. Follow with a niacinamide serum at 5–10% — it regulates sebum production in the T-zone, minimises pores, and delivers antioxidants that neutralise free-radical damage. Layer a hyaluronic acid serum on top for lightweight, oil-free hydration. Apply a ceramides-rich moisturizer to reinforce the skin's protective lipid matrix. Finish with broad-spectrum SPF 30+ sunscreen — this is non-negotiable for anti-aging since UV is the primary cause of premature collagen breakdown. In the evening you can introduce peptides to support collagen synthesis. Niacinamide pairs well with nearly every active, so it is a cornerstone ingredient for this skin type.",
+      "timestamp": "2026-03-31T09:00:00+00:00",
+      "total_score": 14.0,
+      "keyword_score": 9.0,
+      "consistency_bonus": 5,
+      "matched_keywords": [
+        "niacinamide", "antioxidants", "hyaluronic acid", "ceramides",
+        "moisturizer", "spf", "skin barrier", "collagen", "peptides"
+      ]
+    },
+    {
+      "thread_id": 2,
+      "question_model": "claude-sonnet-4-20250514",
+      "answer_model": "claude-haiku-4-5-20251001",
+      "question_text": "I struggle with hormonal breakouts along my jawline and chin. I have heard that both salicylic acid and benzoyl peroxide can help, but I am not sure of the difference or how to use them without completely drying out my skin.",
+      "answer_text": "Hormonal breakouts respond well to a targeted, layered approach using both salicylic acid and benzoyl peroxide, but they work through different mechanisms. Salicylic acid is a BHA (beta hydroxy acid) — it is oil-soluble, so it penetrates deep into pores to dissolve sebum and dead skin cells, making it excellent for blackheads, whiteheads, and congested skin. Benzoyl peroxide is an antimicrobial that kills Cutibacterium acnes bacteria directly, reducing inflammation. For your routine: cleanse with a 1–2% salicylic acid face wash morning and night. Spot-apply 2.5–5% benzoyl peroxide on active breakouts only. Use a niacinamide serum to calm redness and regulate oil without drying. Finish with a lightweight moisturizer containing ceramides and hyaluronic acid to compensate for the drying effects of these actives. Always apply SPF in the morning since these ingredients increase photosensitivity. Consider adding azelaic acid to your evening routine as it addresses both acne and post-inflammatory hyperpigmentation.",
+      "timestamp": "2026-03-31T09:05:00+00:00",
+      "total_score": 14.0,
+      "keyword_score": 9.0,
+      "consistency_bonus": 5,
+      "matched_keywords": [
+        "salicylic acid", "benzoyl peroxide", "bha", "niacinamide",
+        "moisturizer", "ceramides", "hyaluronic acid", "spf", "azelaic acid"
+      ]
+    },
+    {
+      "thread_id": 3,
+      "question_model": "claude-sonnet-4-20250514",
+      "answer_model": "claude-haiku-4-5-20251001",
+      "question_text": "I want to understand chemical exfoliation better. I have heard that AHA and BHA exfoliants can transform skin texture, but I am worried about irritation and damaging my skin barrier. What is the safest approach for a complete beginner?",
+      "answer_text": "Chemical exfoliation is transformative when introduced gradually. Here is a beginner-safe breakdown. AHA exfoliants are water-soluble acids that resurface the outer layers of skin: glycolic acid has the smallest molecule and deepest penetration, ideal for fine lines and hyperpigmentation; lactic acid is gentler and adds humectant benefits, making it a better starting point for sensitive skin. BHA exfoliation is dominated by salicylic acid, which is oil-soluble and uniquely able to clear pores — the go-to for oily and acne-prone skin. Start-up protocol: begin with 5–7% glycolic acid or lactic acid just once or twice a week, building to three times over six weeks. Always follow exfoliation with a ceramides-rich moisturizer, and never skip SPF the morning after — freshly exfoliated skin is significantly more photosensitive. Monitor your skin barrier closely: stinging, tight skin, and sudden dryness indicate over-exfoliation. If these appear, pause and repair with squalane, panthenol, and hyaluronic acid until the barrier recovers. Avoid combining AHA and BHA on the same night as retinol until you have at least two months of experience with each.",
+      "timestamp": "2026-03-31T09:10:00+00:00",
+      "total_score": 19.0,
+      "keyword_score": 14.0,
+      "consistency_bonus": 5,
+      "matched_keywords": [
+        "aha", "bha", "exfoliation", "glycolic acid", "lactic acid",
+        "salicylic acid", "ceramides", "moisturizer", "spf", "skin barrier",
+        "squalane", "panthenol", "hyaluronic acid", "retinol"
+      ]
+    },
+    {
+      "thread_id": 4,
+      "question_model": "claude-sonnet-4-20250514",
+      "answer_model": "claude-haiku-4-5-20251001",
+      "question_text": "I have sun damage and dark spots from years of inconsistent SPF use. I have been reading about vitamin C, tranexamic acid, and niacinamide for brightening. Which combination is most effective, and are there interactions I should be aware of?",
+      "answer_text": "Hyperpigmentation from sun damage responds well to a multi-pathway brightening strategy. Each of the three ingredients you mention works differently, and together they are synergistic. Vitamin C (L-ascorbic acid) inhibits tyrosinase, the enzyme that produces melanin, while also delivering antioxidants that neutralise UV-induced free radicals and stimulating collagen synthesis — use it in the morning for maximum benefit. Tranexamic acid blocks communication between UV-damaged keratinocytes and melanocytes, reducing melanin transfer through a completely different mechanism, making it an excellent evening ingredient. Niacinamide prevents the transfer of melanosomes to skin cells, calms inflammation, and reinforces the skin barrier — it pairs beautifully with both of the above. Complete routine: morning — vitamin C serum, niacinamide moisturizer, then SPF (always, since new UV exposure will re-trigger pigmentation). Evening — tranexamic acid serum, then azelaic acid for additional brightening and anti-inflammatory action. Add glycolic acid 1–2 times per week to enhance penetration and speed cell turnover. Avoid applying vitamin C and retinol in the same step as they work optimally at different pH levels.",
+      "timestamp": "2026-03-31T09:15:00+00:00",
+      "total_score": 16.0,
+      "keyword_score": 11.0,
+      "consistency_bonus": 5,
+      "matched_keywords": [
+        "vitamin c", "tranexamic acid", "niacinamide", "antioxidants",
+        "collagen", "skin barrier", "moisturizer", "spf", "azelaic acid",
+        "glycolic acid", "retinol"
+      ]
+    },
+    {
+      "thread_id": 5,
+      "question_model": "claude-sonnet-4-20250514",
+      "answer_model": "claude-haiku-4-5-20251001",
+      "question_text": "My skin has become extremely sensitive and reactive — it stings when I apply almost any product, feels tight after cleansing, and has random dry patches. I suspect I have damaged my skin barrier from over-exfoliating. What should I do to recover, and which ingredients help versus hurt?",
+      "answer_text": "What you are describing is a classic compromised skin barrier, and the recovery protocol is straightforward once you know what to reach for. INGREDIENTS THAT HEAL: Ceramides are the single most important repair ingredient — they constitute roughly 50% of the skin's lipid matrix and are the first thing depleted by over-exfoliation. Hyaluronic acid provides deep, multi-layer hydration without any risk of irritation. Panthenol (provitamin B5) is profoundly soothing and accelerates cellular regeneration. Squalane is a feather-light, non-comedogenic emollient that mimics the skin's own natural oils perfectly. Centella asiatica (cica) contains madecassoside and asiaticoside, which reduce redness and speed wound healing. Urea at 5–10% is a remarkable dual-action humectant and gentle keratolytic. Zinc oxide in a mineral SPF provides essential sun protection without the irritation risk of chemical filters. INGREDIENTS TO AVOID COMPLETELY until healed: all AHA exfoliants (glycolic acid, lactic acid), all BHA, retinol, vitamin c at high concentrations, benzoyl peroxide, niacinamide above 5%, fragrances, and alcohol-based toners. Recovery takes two to four weeks of strict barrier-first skincare: gentle cleanser, ceramides moisturizer every morning and night, and zinc oxide SPF every morning. Patience and simplicity are your best tools. Exfoliation can resume once the skin barrier is fully restored.",
+      "timestamp": "2026-03-31T09:20:00+00:00",
+      "total_score": 24.0,
+      "keyword_score": 19.0,
+      "consistency_bonus": 5,
+      "matched_keywords": [
+        "ceramides", "hyaluronic acid", "panthenol", "squalane",
+        "centella asiatica", "urea", "zinc oxide", "skin barrier",
+        "aha", "glycolic acid", "lactic acid", "bha", "retinol",
+        "vitamin c", "benzoyl peroxide", "niacinamide", "moisturizer",
+        "spf", "exfoliation"
+      ]
+    }
+  ],
+  "model_averages": {
+    "claude-haiku-4-5-20251001": 17.4
+  },
+  "winner": "claude-haiku-4-5-20251001"
+}
