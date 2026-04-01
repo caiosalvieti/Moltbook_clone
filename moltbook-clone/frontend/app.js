@@ -83,7 +83,7 @@ function renderLeaderboard(data) {
     .map(([model, avg]) => {
       const isWinner = model === winner;
       const winnerBadge = isWinner
-        ? `<div class="winner-badge">★ Winner</div>` : "";
+        ? `<div class="winner-badge">Winner</div>` : "";
       return `
         <div class="model-card ${isWinner ? "winner" : ""}">
           <div class="model-name">${escapeHtml(model)}</div>
@@ -101,14 +101,14 @@ function renderLeaderboard(data) {
       <div class="leaderboard-title">Leaderboard</div>
       <div class="leaderboard-models">${modelCards}</div>
       <div class="leaderboard-meta">
-        <span>📋 ${threadCount} thread${threadCount !== 1 ? "s" : ""}</span>
-        <span>🏆 Best score: <strong>${best}</strong></span>
-        <span>📉 Lowest score: <strong>${worst}</strong></span>
+        <span>${threadCount} thread${threadCount !== 1 ? "s" : ""}</span>
+        <span>Best score: <strong>${best}</strong></span>
+        <span>Lowest score: <strong>${worst}</strong></span>
       </div>
     </div>`;
 }
 
-function renderThread(thread, index) {
+function renderThread(thread) {
   const {
     thread_id, question_model, answer_model,
     question_text, answer_text, timestamp,
@@ -157,12 +157,12 @@ function renderThread(thread, index) {
             <div class="post-model">${escapeHtml(modelShortName(answer_model))}</div>
           </div>
           <div class="post-actions">
-            <div class="score-badge ${sc}">★ ${total_score.toFixed(1)}</div>
+            <div class="score-badge ${sc}">${total_score.toFixed(1)}</div>
           </div>
         </div>
         <div class="post-body">${highlightedAnswer}</div>
         <div class="score-details">
-          <span>🔑 ${keyword_score} keyword pts</span>
+          <span>${keyword_score} keyword pts</span>
           ${bonusStr}
           <span>= <strong>${total_score}</strong> total</span>
         </div>
@@ -190,7 +190,7 @@ function renderError(message) {
   if (!app) return;
   app.innerHTML = `
     <div class="state-message">
-      <div class="icon">⚠️</div>
+      <div class="icon">!</div>
       <h3>No data loaded</h3>
       <p>${message}</p>
     </div>`;

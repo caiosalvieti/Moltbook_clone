@@ -47,7 +47,7 @@ def print_summary(results: dict) -> None:
     print(f"  MOLTBOOK EVALUATION RESULTS")
     print(bar)
     for model, avg in results["model_averages"].items():
-        tag = "  ★ WINNER" if model == results["winner"] else ""
+        tag = "  WINNER" if model == results["winner"] else ""
         print(f"  {model}{tag}")
         print(f"    avg score: {avg:.2f}")
     print(bar)
